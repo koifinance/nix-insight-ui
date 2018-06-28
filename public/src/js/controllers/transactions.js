@@ -60,7 +60,7 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
       tmp[addr].valueSat += Math.round(items[i].value * COIN);
       tmp[addr].items.push(items[i]);
       tmp[addr].notAddr = notAddr;
-      tmp[addr].type = items[i].type;
+      //tmp[addr].type = items[i].type;
       
       if (items[i].data)
         tmp[addr].data = items[i].data;
