@@ -115,7 +115,7 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #02E8AF;
+  background-color: #107CD8;
   margin: 0;
   border: 0;
 }
@@ -316,7 +316,7 @@ margin-left: 0;
   border-radius: 2px;
 }
 .btn-primary {
-  background-color: #02E8AF;
+  background-color: #107CD8;
   border: 2px solid #76AF0F;
 }
 
@@ -363,7 +363,7 @@ margin-left: 0;
 }
 
 .txvalues-primary {
-  background-color: #02E8AF;
+  background-color: #107CD8;
   color: #000;
 }
 
@@ -387,7 +387,7 @@ margin-left: 0;
   font-size: 14px;
   font-weight: normal;
 }
-.progress-bar-info { background-color: #02E8AF; }
+.progress-bar-info { background-color: #107CD8; }
 .progress-bar { color: #000; }
 
 /* Set the fixed height of the footer here */
@@ -828,7 +828,7 @@ a.v_highlight_more {
   }
   .txvalues-primary {
     background: none;
-    color: #02E8AF;
+    color: #107CD8;
   }
   .txvalues-default {
     background: none;
