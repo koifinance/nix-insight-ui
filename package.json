@@ -40,7 +40,7 @@
   ],
   "bitcoreNode": "bitcore-node",
   "insightConfig": {
-    "apiPrefix": "api",
+    "apiPrefix": "nix-insight-api",
     "routePrefix": ""
   },
   "scripts": {
