@@ -90,7 +90,8 @@
           -->
           <tr>
             <td><strong translate>Block Reward</strong></td>
-            <td data-ng-show="!loading" class="text-right text-muted" id="idBlockReward">{{$root.currency.getConvertion(blockReward) || blockReward + ' NIX'}}</td>
+            <td data-ng-show="!loading" class="text-right text-muted" id="idBlockReward">{{$root.currency.getConvertion(block.reward) || block.reward + ' NIX'}}</td>
+            <!--<td data-ng-show="!loading" class="text-right text-muted" id="idBlockReward">{{$root.currency.getConvertion(blockReward) || blockReward + ' NIX'}}</td>-->
             <td data-ng-show="loading" class="text-right text-muted" translate>Loading</td>
           </tr>
           <tr>
