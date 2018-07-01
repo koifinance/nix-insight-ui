@@ -36,7 +36,8 @@
           <div class="panel-body transaction-vin-vout">
             <div class="pull-right btc-value" data-ng-class="{'text-danger': $root.currentAddr == vin.addr}">
               <span data-ng-show="vin.type == 'standard'">{{$root.currency.getConvertion(vin.value) || vin.value + ' NIX'}}</span>
-              <span data-ng-show="vin.type != 'standard'" translate>Blinded</span>
+              <span data-ng-show="vin.type != 'standard'" translate>{{$root.currency.getConvertion(vin.value) || vin.value + ' NIX'}}</span>
+              <!--<span data-ng-show="vin.type != 'standard'" translate>Blinded</span>-->
             </div>
             <div class="ellipsis" data-ng-show="vin.type != 'anon'">
               <span data-ng-show="vin.notAddr">{{vin.addr}}</span>
