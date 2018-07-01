@@ -108,8 +108,6 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
       $scope.txs.push(tx);
       if (tx.fees < 0) // block reward is negative fee
         $rootScope.blockReward = -tx.fees;
-      else
-        $rootScope.blockReward = +tx.fees;
     });
   };
 
