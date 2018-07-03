@@ -168,7 +168,8 @@ margin-left: 0;
 
 .navbar-default .navbar-brand {
   color: #FFFFFF;
-  padding: 20px 15px;
+  padding: 7px 20px;
+  height: auto!important;
 }
 
 .navbar-form .form-control {
