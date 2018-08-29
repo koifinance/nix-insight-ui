@@ -24,14 +24,14 @@ function($scope, $rootScope, $routeParams, $location, Global, Transaction, Trans
       var notAddr = false;
       // non standard input
       if (items[i].scriptSig && !items[i].addr) {
-        items[i].addr = 'Unparsed address [' + u++ + ']';
+        items[i].addr = 'Anonymous address [' + u++ + ']';
         items[i].notAddr = true;
         notAddr = true;
       }
 
       // non standard output
       if (items[i].scriptPubKey && !items[i].scriptPubKey.addresses) {
-        items[i].scriptPubKey.addresses = ['Unparsed address [' + u++ + ']'];
+        items[i].scriptPubKey.addresses = ['Anonymous address [' + u++ + ']'];
         items[i].notAddr = true;
         notAddr = true;
       }
